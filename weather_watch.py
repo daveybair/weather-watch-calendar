@@ -26,8 +26,8 @@ CONFIG = {
 
     # Thresholds
     # Lowered so you get warned earlier.
-    "extreme_heat_index_f": 95,
-    "hot_humid_heat_index_f": 88,
+    "extreme_heat_index_f": 40,
+    "hot_humid_heat_index_f": 35,
 
     # Wind warning thresholds
     "wind_gust_threshold_mph": 45,
