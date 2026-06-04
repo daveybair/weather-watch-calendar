@@ -4,12 +4,12 @@ PRODID:-//Weather Warning System//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:f81d5add-c72a-550e-908e-efe7e26f4456@weather-watch
-DTSTAMP:20260603T155817Z
-SUMMARY:[WEATHER WATCH] HOT / HUMID
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 89.3°F. Max apparent temp: 91.9°F. Max temp: 84.2°F. Max humidity: 97%.
+UID:dd84d968-bfeb-54a0-a27c-9eae2d94c498@weather-watch
+DTSTAMP:20260604T141419Z
+SUMMARY:[WEATHER WATCH] OFFICIAL NWS ALERT — Special Weather Statement
+DESCRIPTION:Location: Itasca\, IL\n\nSpecial Weather Statement issued June 4 at 4:25AM CDT by NWS Chicago IL\n\nWarm conditions\, southwest winds gusting as high as 25 mph\, and\nrelative humidity falling as low as 25 percent will result in an\nincreased grass and brush fire threat this afternoon.\n\nUse extra care with any outdoor activities that involve open\nflame or sparks\, including operating farm equipment\, parking on\ngrass\, and improperly discarding smoking materials.
 CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260612
-DTEND;VALUE=DATE:20260613
+DTSTART;VALUE=DATE:20260604
+DTEND;VALUE=DATE:20260605
 END:VEVENT
 END:VCALENDAR
