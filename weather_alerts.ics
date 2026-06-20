@@ -5,11 +5,29 @@ CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
 UID:c5f90752-c162-54dd-b091-2c921907fbac@weather-watch
-DTSTAMP:20260618T142802Z
+DTSTAMP:20260620T130219Z
 SUMMARY:[WEATHER WATCH] LIGHTNING / THUNDERSTORM RISK
-DESCRIPTION:Location: Itasca\, IL\n\nThunderstorm weather code appears in 7 forecast hour(s). Max precipitation probability: 25%.
+DESCRIPTION:Location: Itasca\, IL\n\nThunderstorm weather code appears in 2 forecast hour(s). Max precipitation probability: 15%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260627
 DTEND;VALUE=DATE:20260628
+END:VEVENT
+BEGIN:VEVENT
+UID:9c4d5f38-6c84-50a8-940b-89b0f0517025@weather-watch
+DTSTAMP:20260620T130219Z
+SUMMARY:[WEATHER WATCH] LIGHTNING / THUNDERSTORM RISK
+DESCRIPTION:Location: Itasca\, IL\n\nThunderstorm weather code appears in 3 forecast hour(s). Max precipitation probability: 26%.
+CATEGORIES:Weather Warning
+DTSTART;VALUE=DATE:20260628
+DTEND;VALUE=DATE:20260629
+END:VEVENT
+BEGIN:VEVENT
+UID:c9da1627-0b4d-5807-91cc-9e2414d08fc2@weather-watch
+DTSTAMP:20260620T130219Z
+SUMMARY:[WEATHER WATCH] HOT / HUMID
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 88.6°F. Max apparent temp: 94.0°F. Max temp: 88.6°F. Max humidity: 97%.
+CATEGORIES:Weather Warning
+DTSTART;VALUE=DATE:20260629
+DTEND;VALUE=DATE:20260630
 END:VEVENT
 END:VCALENDAR
