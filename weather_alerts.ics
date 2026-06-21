@@ -4,30 +4,81 @@ PRODID:-//Weather Warning System//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:c5f90752-c162-54dd-b091-2c921907fbac@weather-watch
-DTSTAMP:20260620T130219Z
+UID:64a893ad-e0c1-5543-b46b-e4785855f716@weather-watch
+DTSTAMP:20260621T132044Z
 SUMMARY:[WEATHER WATCH] LIGHTNING / THUNDERSTORM RISK
-DESCRIPTION:Location: Itasca\, IL\n\nThunderstorm weather code appears in 2 forecast hour(s). Max precipitation probability: 15%.
+DESCRIPTION:Location: Itasca\, IL\n\nThunderstorm weather code appears in 2 forecast hour(s). Max precipitation probability: 34%.
 CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260627
-DTEND;VALUE=DATE:20260628
+DTSTART;VALUE=DATE:20260624
+DTEND;VALUE=DATE:20260625
 END:VEVENT
 BEGIN:VEVENT
-UID:9c4d5f38-6c84-50a8-940b-89b0f0517025@weather-watch
-DTSTAMP:20260620T130219Z
-SUMMARY:[WEATHER WATCH] LIGHTNING / THUNDERSTORM RISK
-DESCRIPTION:Location: Itasca\, IL\n\nThunderstorm weather code appears in 3 forecast hour(s). Max precipitation probability: 26%.
+UID:c4981e82-7a1f-5ea5-8421-0de84e3f837c@weather-watch
+DTSTAMP:20260621T132044Z
+SUMMARY:[WEATHER WATCH] BUY WATER — heat/humidity coming
+DESCRIPTION:Location: Itasca\, IL\n\nHeat/humidity is forecast for 2026-06-28. Expected max heat index: 98.7°F. Buy water early\, check coolers\, ice\, shade\, and electrolyte supplies.
+CATEGORIES:Weather Warning
+DTSTART:20260626T080000
+DTEND:20260626T083000
+BEGIN:VALARM
+TRIGGER:-PT0M
+ACTION:DISPLAY
+DESCRIPTION:[WEATHER WATCH] BUY WATER — heat/humidity coming
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d583acda-5615-5df6-abac-6318e572103c@weather-watch
+DTSTAMP:20260621T132044Z
+SUMMARY:[WEATHER WATCH] EXTREME HEAT / HUMIDITY + LIGHTNING / THUNDERSTORM RISK
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 98.7°F. Max apparent temp: 95.4°F. Max temp: 91.1°F. Max humidity: 98%.\nThunderstorm weather code appears in 11 forecast hour(s). Max precipitation probability: 24%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260628
 DTEND;VALUE=DATE:20260629
 END:VEVENT
 BEGIN:VEVENT
-UID:c9da1627-0b4d-5807-91cc-9e2414d08fc2@weather-watch
-DTSTAMP:20260620T130219Z
-SUMMARY:[WEATHER WATCH] HOT / HUMID
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 88.6°F. Max apparent temp: 94.0°F. Max temp: 88.6°F. Max humidity: 97%.
+UID:496ecde2-b646-54d0-b1f4-c94c44164c3e@weather-watch
+DTSTAMP:20260621T132044Z
+SUMMARY:[WEATHER WATCH] BUY WATER — heat/humidity coming
+DESCRIPTION:Location: Itasca\, IL\n\nHeat/humidity is forecast for 2026-06-29. Expected max heat index: 100.0°F. Buy water early\, check coolers\, ice\, shade\, and electrolyte supplies.
+CATEGORIES:Weather Warning
+DTSTART:20260627T080000
+DTEND:20260627T083000
+BEGIN:VALARM
+TRIGGER:-PT0M
+ACTION:DISPLAY
+DESCRIPTION:[WEATHER WATCH] BUY WATER — heat/humidity coming
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:d1879034-4302-5634-9bd3-1085f641f1f1@weather-watch
+DTSTAMP:20260621T132044Z
+SUMMARY:[WEATHER WATCH] EXTREME HEAT / HUMIDITY + LIGHTNING / THUNDERSTORM RISK
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 100.0°F. Max apparent temp: 97.0°F. Max temp: 92.4°F. Max humidity: 82%.\nThunderstorm weather code appears in 13 forecast hour(s). Max precipitation probability: 37%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260629
 DTEND;VALUE=DATE:20260630
+END:VEVENT
+BEGIN:VEVENT
+UID:e44c4a05-0989-5545-91c7-ac035af707e7@weather-watch
+DTSTAMP:20260621T132044Z
+SUMMARY:[WEATHER WATCH] BUY WATER — heat/humidity coming
+DESCRIPTION:Location: Itasca\, IL\n\nHeat/humidity is forecast for 2026-06-30. Expected max heat index: 99.7°F. Buy water early\, check coolers\, ice\, shade\, and electrolyte supplies.
+CATEGORIES:Weather Warning
+DTSTART:20260628T080000
+DTEND:20260628T083000
+BEGIN:VALARM
+TRIGGER:-PT0M
+ACTION:DISPLAY
+DESCRIPTION:[WEATHER WATCH] BUY WATER — heat/humidity coming
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:7196a57c-7a5b-5c2a-97d3-fb8c63a68456@weather-watch
+DTSTAMP:20260621T132044Z
+SUMMARY:[WEATHER WATCH] EXTREME HEAT / HUMIDITY + LIGHTNING / THUNDERSTORM RISK
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 99.7°F. Max apparent temp: 98.3°F. Max temp: 92.4°F. Max humidity: 86%.\nThunderstorm weather code appears in 14 forecast hour(s). Max precipitation probability: 37%.
+CATEGORIES:Weather Warning
+DTSTART;VALUE=DATE:20260630
+DTEND;VALUE=DATE:20260701
 END:VEVENT
 END:VCALENDAR
