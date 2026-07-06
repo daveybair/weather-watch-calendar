@@ -4,19 +4,42 @@ PRODID:-//Weather Warning System//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:8169a410-5b67-5c07-9896-53303c8ec2c0@weather-watch
-DTSTAMP:20260705T124649Z
-SUMMARY:[WEATHER WATCH] HOT / HUMID
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 90.5°F. Max apparent temp: 93.3°F. Max temp: 88.1°F. Max humidity: 96%.
+UID:bc5b783f-db38-5f57-985b-6190d6f28498@weather-watch
+DTSTAMP:20260706T144143Z
+SUMMARY:[WEATHER WATCH] HOT / HUMID + LIGHTNING / THUNDERSTORM RISK
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 89.4°F. Max apparent temp: 92.4°F. Max temp: 85.1°F. Max humidity: 94%.\nThunderstorm weather code appears in 5 forecast hour(s). Max precipitation probability: 55%.
+CATEGORIES:Weather Warning
+DTSTART;VALUE=DATE:20260709
+DTEND;VALUE=DATE:20260710
+END:VEVENT
+BEGIN:VEVENT
+UID:4e69cbc5-f1b5-504c-a8b3-43f920d908f1@weather-watch
+DTSTAMP:20260706T144143Z
+SUMMARY:[WEATHER WATCH] BUY WATER — heat/humidity coming
+DESCRIPTION:Location: Itasca\, IL\n\nHeat/humidity is forecast for 2026-07-12. Expected max heat index: 92.5°F. Buy water early\, check coolers\, ice\, shade\, and electrolyte supplies.
+CATEGORIES:Weather Warning
+DTSTART:20260710T080000
+DTEND:20260710T083000
+BEGIN:VALARM
+TRIGGER:-PT0M
+ACTION:DISPLAY
+DESCRIPTION:[WEATHER WATCH] BUY WATER — heat/humidity coming
+END:VALARM
+END:VEVENT
+BEGIN:VEVENT
+UID:c3df72a8-186c-5469-891b-bae6d90e8e4b@weather-watch
+DTSTAMP:20260706T144143Z
+SUMMARY:[WEATHER WATCH] EXTREME HEAT / HUMIDITY
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 92.5°F. Max apparent temp: 95.0°F. Max temp: 88.0°F. Max humidity: 88%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260712
 DTEND;VALUE=DATE:20260713
 END:VEVENT
 BEGIN:VEVENT
 UID:47b43bc6-cb04-5d7d-87af-09af76a00c9b@weather-watch
-DTSTAMP:20260705T124649Z
+DTSTAMP:20260706T144143Z
 SUMMARY:[WEATHER WATCH] BUY WATER — heat/humidity coming
-DESCRIPTION:Location: Itasca\, IL\n\nHeat/humidity is forecast for 2026-07-13. Expected max heat index: 100.5°F. Buy water early\, check coolers\, ice\, shade\, and electrolyte supplies.
+DESCRIPTION:Location: Itasca\, IL\n\nHeat/humidity is forecast for 2026-07-13. Expected max heat index: 104.3°F. Buy water early\, check coolers\, ice\, shade\, and electrolyte supplies.
 CATEGORIES:Weather Warning
 DTSTART:20260711T080000
 DTEND:20260711T083000
@@ -28,32 +51,18 @@ END:VALARM
 END:VEVENT
 BEGIN:VEVENT
 UID:632b0423-9e9c-5105-bbc9-a45a36ebb491@weather-watch
-DTSTAMP:20260705T124649Z
+DTSTAMP:20260706T144143Z
 SUMMARY:[WEATHER WATCH] EXTREME HEAT / HUMIDITY
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 100.5°F. Max apparent temp: 97.1°F. Max temp: 89.8°F. Max humidity: 96%.
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 104.3°F. Max apparent temp: 102.2°F. Max temp: 92.6°F. Max humidity: 91%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260713
 DTEND;VALUE=DATE:20260714
 END:VEVENT
 BEGIN:VEVENT
-UID:a585f57e-4183-5f27-841d-01aa7e04f3d3@weather-watch
-DTSTAMP:20260705T124649Z
-SUMMARY:[WEATHER WATCH] BUY WATER — heat/humidity coming
-DESCRIPTION:Location: Itasca\, IL\n\nHeat/humidity is forecast for 2026-07-14. Expected max heat index: 102.8°F. Buy water early\, check coolers\, ice\, shade\, and electrolyte supplies.
-CATEGORIES:Weather Warning
-DTSTART:20260712T080000
-DTEND:20260712T083000
-BEGIN:VALARM
-TRIGGER:-PT0M
-ACTION:DISPLAY
-DESCRIPTION:[WEATHER WATCH] BUY WATER — heat/humidity coming
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:a7a8ead5-0dcc-508f-a206-f1261e2241fe@weather-watch
-DTSTAMP:20260705T124649Z
-SUMMARY:[WEATHER WATCH] EXTREME HEAT / HUMIDITY
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 102.8°F. Max apparent temp: 99.6°F. Max temp: 92.3°F. Max humidity: 89%.
+UID:bedeffcc-149f-58d5-8fea-3504861b7afa@weather-watch
+DTSTAMP:20260706T144143Z
+SUMMARY:[WEATHER WATCH] HOT / HUMID
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 90.6°F. Max apparent temp: 91.2°F. Max temp: 86.1°F. Max humidity: 90%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260714
 DTEND;VALUE=DATE:20260715
