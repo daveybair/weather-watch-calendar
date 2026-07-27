@@ -4,57 +4,66 @@ PRODID:-//Weather Warning System//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:c807b2be-5836-5998-8058-d076214e3439@weather-watch
-DTSTAMP:20260726T123622Z
+UID:a0863432-bf02-5d73-b928-d9eb439bfa60@weather-watch
+DTSTAMP:20260727T135157Z
 SUMMARY:[WEATHER WATCH] EXTREME HEAT / HUMIDITY
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 100.7°F. Max apparent temp: 98.2°F. Max temp: 89.7°F. Max humidity: 95%.
-CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260726
-DTEND;VALUE=DATE:20260727
-END:VEVENT
-BEGIN:VEVENT
-UID:71bef994-1f2b-559d-8039-bd4c7d68a904@weather-watch
-DTSTAMP:20260726T123622Z
-SUMMARY:[WEATHER WATCH] EXTREME HEAT / HUMIDITY + WINDY DAY
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 95.0°F. Max apparent temp: 96.2°F. Max temp: 87.1°F. Max humidity: 94%.\nMax wind: 21.7 mph. Max gust: 57.5 mph.
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 113.0°F. Max apparent temp: 105.7°F. Max temp: 96.6°F. Max humidity: 96%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260727
 DTEND;VALUE=DATE:20260728
 END:VEVENT
 BEGIN:VEVENT
-UID:bdff2aa1-bb72-5f30-9152-63402807ebc3@weather-watch
-DTSTAMP:20260726T123622Z
+UID:d624bffc-74d3-59d6-932d-77c8f7b31fef@weather-watch
+DTSTAMP:20260727T135157Z
 SUMMARY:[WEATHER WATCH] HOT / HUMID
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 89.9°F. Max apparent temp: 89.0°F. Max temp: 89.9°F. Max humidity: 60%.
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 89.0°F. Max apparent temp: 92.1°F. Max temp: 89.0°F. Max humidity: 74%.
+CATEGORIES:Weather Warning
+DTSTART;VALUE=DATE:20260729
+DTEND;VALUE=DATE:20260730
+END:VEVENT
+BEGIN:VEVENT
+UID:bdff2aa1-bb72-5f30-9152-63402807ebc3@weather-watch
+DTSTAMP:20260727T135157Z
+SUMMARY:[WEATHER WATCH] HOT / HUMID
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 89.5°F. Max apparent temp: 91.5°F. Max temp: 88.3°F. Max humidity: 81%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
 END:VEVENT
 BEGIN:VEVENT
-UID:1546b900-ea51-5445-94a0-9fd63515e45b@weather-watch
-DTSTAMP:20260726T123622Z
-SUMMARY:[WEATHER WATCH] HOT / HUMID
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 89.7°F. Max apparent temp: 91.7°F. Max temp: 89.7°F. Max humidity: 75%.
-CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260802
-DTEND;VALUE=DATE:20260803
-END:VEVENT
-BEGIN:VEVENT
 UID:2ae0c68b-d1f8-5bb9-99ac-47b55219e10a@weather-watch
-DTSTAMP:20260726T123622Z
+DTSTAMP:20260727T135157Z
 SUMMARY:[WEATHER WATCH] HOT / HUMID
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 90.0°F. Max apparent temp: 92.8°F. Max temp: 90.0°F. Max humidity: 73%.
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 91.3°F. Max apparent temp: 92.2°F. Max temp: 86.6°F. Max humidity: 84%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260803
 DTEND;VALUE=DATE:20260804
 END:VEVENT
 BEGIN:VEVENT
 UID:f59bc32d-a3b2-5fd1-89bf-6c35d4c98423@weather-watch
-DTSTAMP:20260726T123622Z
+DTSTAMP:20260727T135157Z
 SUMMARY:[WEATHER WATCH] HOT / HUMID
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 93.8°F. Max apparent temp: 94.4°F. Max temp: 90.6°F. Max humidity: 80%.
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 92.6°F. Max apparent temp: 91.0°F. Max temp: 87.8°F. Max humidity: 87%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260804
 DTEND;VALUE=DATE:20260805
+END:VEVENT
+BEGIN:VEVENT
+UID:29750d18-82de-5f94-a119-c5c6054d46ba@weather-watch
+DTSTAMP:20260727T135157Z
+SUMMARY:[WEATHER WATCH] LIGHTNING / THUNDERSTORM RISK
+DESCRIPTION:Location: Itasca\, IL\n\nThunderstorm weather code appears in 5 forecast hour(s). Max precipitation probability: 14%.
+CATEGORIES:Weather Warning
+DTSTART;VALUE=DATE:20260805
+DTEND;VALUE=DATE:20260806
+END:VEVENT
+BEGIN:VEVENT
+UID:75270ffb-dded-5e9a-8270-63c7901cdc51@weather-watch
+DTSTAMP:20260727T135157Z
+SUMMARY:[WEATHER WATCH] OFFICIAL NWS ALERT — Heat Advisory
+DESCRIPTION:Location: Itasca\, IL\n\nHeat Advisory issued July 27 at 8:03AM CDT until July 27 at 9:00PM CDT by NWS Chicago IL\n\n* WHAT...Peak heat index values up to 100 to 110 degrees expected.\n\n* WHERE...Iroquois\, Central Cook\, DuPage\, Eastern Will\, Kankakee\,\nLake IL\, Northern Cook\, Northern Will\, Southern Cook\, and Southern\nWill Counties.\n\n* WHEN...Until 9 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.
+CATEGORIES:Weather Warning
+DTSTART;VALUE=DATE:20260727
+DTEND;VALUE=DATE:20260728
 END:VEVENT
 END:VCALENDAR
