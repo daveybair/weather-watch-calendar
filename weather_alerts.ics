@@ -4,66 +4,44 @@ PRODID:-//Weather Warning System//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:a0863432-bf02-5d73-b928-d9eb439bfa60@weather-watch
-DTSTAMP:20260727T135157Z
-SUMMARY:[WEATHER WATCH] EXTREME HEAT / HUMIDITY
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 113.0°F. Max apparent temp: 105.7°F. Max temp: 96.6°F. Max humidity: 96%.
-CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260727
-DTEND;VALUE=DATE:20260728
-END:VEVENT
-BEGIN:VEVENT
-UID:d624bffc-74d3-59d6-932d-77c8f7b31fef@weather-watch
-DTSTAMP:20260727T135157Z
-SUMMARY:[WEATHER WATCH] HOT / HUMID
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 89.0°F. Max apparent temp: 92.1°F. Max temp: 89.0°F. Max humidity: 74%.
-CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260729
-DTEND;VALUE=DATE:20260730
-END:VEVENT
-BEGIN:VEVENT
 UID:bdff2aa1-bb72-5f30-9152-63402807ebc3@weather-watch
-DTSTAMP:20260727T135157Z
+DTSTAMP:20260728T130720Z
 SUMMARY:[WEATHER WATCH] HOT / HUMID
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 89.5°F. Max apparent temp: 91.5°F. Max temp: 88.3°F. Max humidity: 81%.
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 89.3°F. Max apparent temp: 91.9°F. Max temp: 87.4°F. Max humidity: 91%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260730
 DTEND;VALUE=DATE:20260731
 END:VEVENT
 BEGIN:VEVENT
-UID:2ae0c68b-d1f8-5bb9-99ac-47b55219e10a@weather-watch
-DTSTAMP:20260727T135157Z
-SUMMARY:[WEATHER WATCH] HOT / HUMID
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 91.3°F. Max apparent temp: 92.2°F. Max temp: 86.6°F. Max humidity: 84%.
+UID:5997e36c-3c10-5955-9907-8a3887881870@weather-watch
+DTSTAMP:20260728T130720Z
+SUMMARY:[WEATHER WATCH] BUY WATER — heat/humidity coming
+DESCRIPTION:Location: Itasca\, IL\n\nHeat/humidity is forecast for 2026-08-04. Expected max heat index: 91.3°F. Buy water early\, check coolers\, ice\, shade\, and electrolyte supplies.
 CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260803
-DTEND;VALUE=DATE:20260804
+DTSTART:20260802T080000
+DTEND:20260802T083000
+BEGIN:VALARM
+TRIGGER:-PT0M
+ACTION:DISPLAY
+DESCRIPTION:[WEATHER WATCH] BUY WATER — heat/humidity coming
+END:VALARM
 END:VEVENT
 BEGIN:VEVENT
-UID:f59bc32d-a3b2-5fd1-89bf-6c35d4c98423@weather-watch
-DTSTAMP:20260727T135157Z
-SUMMARY:[WEATHER WATCH] HOT / HUMID
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 92.6°F. Max apparent temp: 91.0°F. Max temp: 87.8°F. Max humidity: 87%.
+UID:98c64c34-6c53-5689-b611-94856ce5208a@weather-watch
+DTSTAMP:20260728T130720Z
+SUMMARY:[WEATHER WATCH] EXTREME HEAT / HUMIDITY
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 91.3°F. Max apparent temp: 98.6°F. Max temp: 91.3°F. Max humidity: 78%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260804
 DTEND;VALUE=DATE:20260805
 END:VEVENT
 BEGIN:VEVENT
-UID:29750d18-82de-5f94-a119-c5c6054d46ba@weather-watch
-DTSTAMP:20260727T135157Z
-SUMMARY:[WEATHER WATCH] LIGHTNING / THUNDERSTORM RISK
-DESCRIPTION:Location: Itasca\, IL\n\nThunderstorm weather code appears in 5 forecast hour(s). Max precipitation probability: 14%.
+UID:56320924-2bae-513b-932a-c0aab7d72302@weather-watch
+DTSTAMP:20260728T130720Z
+SUMMARY:[WEATHER WATCH] HOT / HUMID
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 90.8°F. Max apparent temp: 93.7°F. Max temp: 90.8°F. Max humidity: 82%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260805
 DTEND;VALUE=DATE:20260806
-END:VEVENT
-BEGIN:VEVENT
-UID:75270ffb-dded-5e9a-8270-63c7901cdc51@weather-watch
-DTSTAMP:20260727T135157Z
-SUMMARY:[WEATHER WATCH] OFFICIAL NWS ALERT — Heat Advisory
-DESCRIPTION:Location: Itasca\, IL\n\nHeat Advisory issued July 27 at 8:03AM CDT until July 27 at 9:00PM CDT by NWS Chicago IL\n\n* WHAT...Peak heat index values up to 100 to 110 degrees expected.\n\n* WHERE...Iroquois\, Central Cook\, DuPage\, Eastern Will\, Kankakee\,\nLake IL\, Northern Cook\, Northern Will\, Southern Cook\, and Southern\nWill Counties.\n\n* WHEN...Until 9 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses.
-CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260727
-DTEND;VALUE=DATE:20260728
 END:VEVENT
 END:VCALENDAR
