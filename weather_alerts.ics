@@ -4,44 +4,21 @@ PRODID:-//Weather Warning System//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:6718bd00-4211-5cb5-b016-ff254de2675f@weather-watch
-DTSTAMP:20260813T120630Z
-SUMMARY:[WEATHER WATCH] BUY WATER — heat/humidity coming
-DESCRIPTION:Location: Itasca\, IL\n\nHeat/humidity is forecast for 2026-08-15. Expected max heat index: 95.0°F. Buy water early\, check coolers\, ice\, shade\, and electrolyte supplies.
-CATEGORIES:Weather Warning
-DTSTART:20260813T080000
-DTEND:20260813T083000
-BEGIN:VALARM
-TRIGGER:-PT0M
-ACTION:DISPLAY
-DESCRIPTION:[WEATHER WATCH] BUY WATER — heat/humidity coming
-END:VALARM
-END:VEVENT
-BEGIN:VEVENT
-UID:c4696ced-9756-5b20-80c5-d6670f876191@weather-watch
-DTSTAMP:20260813T120630Z
-SUMMARY:[WEATHER WATCH] EXTREME HEAT / HUMIDITY
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 95.0°F. Max apparent temp: 92.8°F. Max temp: 87.1°F. Max humidity: 97%.
-CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260815
-DTEND;VALUE=DATE:20260816
-END:VEVENT
-BEGIN:VEVENT
-UID:39c9cc73-8b7b-5def-9e09-330bee1c65ff@weather-watch
-DTSTAMP:20260813T120630Z
+UID:73d18282-cdf6-56e1-86d9-9299d470f38a@weather-watch
+DTSTAMP:20260814T120501Z
 SUMMARY:[WEATHER WATCH] HOT / HUMID
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 91.0°F. Max apparent temp: 91.2°F. Max temp: 85.6°F. Max humidity: 98%.
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 89.8°F. Max apparent temp: 91.8°F. Max temp: 85.3°F. Max humidity: 99%.
 CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260820
-DTEND;VALUE=DATE:20260821
+DTSTART;VALUE=DATE:20260816
+DTEND;VALUE=DATE:20260817
 END:VEVENT
 BEGIN:VEVENT
-UID:462c61e4-bda2-545f-a4c5-5ae23c05deed@weather-watch
-DTSTAMP:20260813T120630Z
+UID:e4ad541c-29f9-5723-b3c5-0031102cde63@weather-watch
+DTSTAMP:20260814T120501Z
 SUMMARY:[WEATHER WATCH] LIGHTNING / THUNDERSTORM RISK
-DESCRIPTION:Location: Itasca\, IL\n\nThunderstorm weather code appears in 4 forecast hour(s). Max precipitation probability: 11%.
+DESCRIPTION:Location: Itasca\, IL\n\nThunderstorm weather code appears in 3 forecast hour(s). Max precipitation probability: 14%.
 CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260822
+DTSTART;VALUE=DATE:20260818
+DTEND;VALUE=DATE:20260819
 END:VEVENT
 END:VCALENDAR
