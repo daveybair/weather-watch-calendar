@@ -4,21 +4,12 @@ PRODID:-//Weather Warning System//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:462c61e4-bda2-545f-a4c5-5ae23c05deed@weather-watch
-DTSTAMP:20260819T114816Z
-SUMMARY:[WEATHER WATCH] LIGHTNING / THUNDERSTORM RISK
-DESCRIPTION:Location: Itasca\, IL\n\nThunderstorm weather code appears in 1 forecast hour(s). Max precipitation probability: 33%.
+UID:b567767f-54c7-5a1f-be3c-8278b43111cc@weather-watch
+DTSTAMP:20260820T115038Z
+SUMMARY:[WEATHER WATCH] HOT / HUMID
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 90.3°F. Max apparent temp: 90.7°F. Max temp: 87.0°F. Max humidity: 96%.
 CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260821
-DTEND;VALUE=DATE:20260822
-END:VEVENT
-BEGIN:VEVENT
-UID:6b6a1604-e573-5ea0-aea7-b837c27a8f44@weather-watch
-DTSTAMP:20260819T114816Z
-SUMMARY:[WEATHER WATCH] OFFICIAL NWS ALERT — Special Weather Statement
-DESCRIPTION:Location: Itasca\, IL\n\nSpecial Weather Statement issued August 19 at 5:30AM CDT by NWS Chicago IL\n\nShallow fog has developed early this morning across portions of\nthe area outside of Chicago and may expand in coverage. Some fog\nhas become locally dense\, with visibilities down to one quarter\nmile or less\, especially in low lying areas and near open fields.\nConditions will gradually improve after sunrise.\n\nIf traveling early this morning\, be prepared for sudden\nreductions in visibility over short distances. Slow down\, use low\nbeam headlights and increase following distances in fog. Be\nespecially cautious in school zones.
-CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260819
-DTEND;VALUE=DATE:20260820
+DTSTART;VALUE=DATE:20260829
+DTEND;VALUE=DATE:20260830
 END:VEVENT
 END:VCALENDAR
