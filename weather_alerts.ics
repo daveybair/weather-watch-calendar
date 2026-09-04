@@ -4,39 +4,30 @@ PRODID:-//Weather Warning System//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:2b5b175f-33b3-5f81-bf91-595745b1acad@weather-watch
-DTSTAMP:20260903T150450Z
-SUMMARY:[WEATHER WATCH] EXTREME HEAT / HUMIDITY
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 97.2°F. Max apparent temp: 96.7°F. Max temp: 89.8°F. Max humidity: 79%.
-CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-END:VEVENT
-BEGIN:VEVENT
 UID:ddcd4343-54ce-50d7-bc4a-3486cdc145f2@weather-watch
-DTSTAMP:20260903T150450Z
+DTSTAMP:20260904T150147Z
 SUMMARY:[WEATHER WATCH] EXTREME HEAT / HUMIDITY
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 104.4°F. Max apparent temp: 102.9°F. Max temp: 98.5°F. Max humidity: 75%.
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 104.0°F. Max apparent temp: 103.4°F. Max temp: 97.5°F. Max humidity: 83%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260904
 DTEND;VALUE=DATE:20260905
 END:VEVENT
 BEGIN:VEVENT
 UID:e24b1576-9f19-58ba-a6cd-fcd64838e0aa@weather-watch
-DTSTAMP:20260903T150450Z
+DTSTAMP:20260904T150147Z
 SUMMARY:[WEATHER WATCH] HOT / HUMID
-DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 89.3°F. Max apparent temp: 93.1°F. Max temp: 86.5°F. Max humidity: 95%.
+DESCRIPTION:Location: Itasca\, IL\n\nMax heat index: 94.2°F. Max apparent temp: 94.5°F. Max temp: 86.3°F. Max humidity: 91%.
 CATEGORIES:Weather Warning
 DTSTART;VALUE=DATE:20260905
 DTEND;VALUE=DATE:20260906
 END:VEVENT
 BEGIN:VEVENT
-UID:4c3b26a6-e1d2-50cc-8601-979994c0a0f6@weather-watch
-DTSTAMP:20260903T150450Z
+UID:d699a0ae-db5b-565d-8d22-0ac0a86ccda1@weather-watch
+DTSTAMP:20260904T150147Z
 SUMMARY:[WEATHER WATCH] OFFICIAL NWS ALERT — Heat Advisory
-DESCRIPTION:Location: Itasca\, IL\n\nHeat Advisory issued September 3 at 1:08AM CDT until September 3 at 7:00PM CDT by NWS Chicago IL\n\n* WHAT...Heat index values of 100 to 105 expected. This is the third\nday in a row with forecast or observed heat indices above 100\ndegrees.\n\n* WHERE...Boone\, DuPage\, Kane\, and McHenry Counties.\n\n* WHEN...Until 7 PM CDT this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses especially after several days of dangerous heat.\n\n* ADDITIONAL DETAILS...A cold front possibly accompanied by\nthunderstorms will move inland from Lake Michigan this evening\nleading to rapidly improving conditions.
+DESCRIPTION:Location: Itasca\, IL\n\nHeat Advisory issued September 4 at 9:44AM CDT until September 4 at 10:00PM CDT by NWS Chicago IL\n\n* WHAT...Peak heat index values this afternoon of 100 to locally 110\ndegrees.\n\n* WHERE...Portions of central\, east central\, north central\, and\nnortheast Illinois and northwest Indiana.\n\n* WHEN...Until 10 PM CDT /11 PM EDT/ this evening.\n\n* IMPACTS...Hot temperatures and high humidity may cause heat\nillnesses especially after several days of dangerous heat.
 CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
+DTSTART;VALUE=DATE:20260904
+DTEND;VALUE=DATE:20260905
 END:VEVENT
 END:VCALENDAR
