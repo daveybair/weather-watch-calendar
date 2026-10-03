@@ -4,12 +4,12 @@ PRODID:-//Weather Warning System//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
 BEGIN:VEVENT
-UID:c5d71e4f-1288-545c-ba02-fa95220030aa@weather-watch
-DTSTAMP:20261002T164419Z
+UID:32e2431b-f071-5ded-9b38-5d9013d5d890@weather-watch
+DTSTAMP:20261003T151040Z
 SUMMARY:[WEATHER WATCH] LIGHTNING / THUNDERSTORM RISK
-DESCRIPTION:Location: Itasca\, IL\n\nThunderstorm weather code appears in 2 forecast hour(s). Max precipitation probability: 3%.
+DESCRIPTION:Location: Itasca\, IL\n\nThunderstorm weather code appears in 3 forecast hour(s). Max precipitation probability: 27%.
 CATEGORIES:Weather Warning
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
+DTSTART;VALUE=DATE:20261012
+DTEND;VALUE=DATE:20261013
 END:VEVENT
 END:VCALENDAR
